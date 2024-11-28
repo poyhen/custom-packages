@@ -8,13 +8,13 @@
 }:
 let
   pname = "cursor";
-  version = "0.42.3";
+  version = "0.43.0";
   appKey = "230313mzl4w4u92";
   src = appimageTools.extract {
     inherit pname version;
     src = fetchurl {
-      url = "https://download.todesktop.com/230313mzl4w4u92/cursor-0.42.3-build-241016kxu9umuir-x86_64.AppImage";
-      hash = "sha256-GWkilBlpXube//jbxRjmKJjYcmB42nhMY8K0OgkvtwA=";
+      url = "https://download.todesktop.com/230313mzl4w4u92/cursor-0.43.0-build-24112423a8e6ct7-x86_64.AppImage";
+      hash = "sha256-IcAUXGSMHxGd5Ak4cYA9/2YYg8UA+cRBGgnOupDuRXs=";
     };
 
     #workaround for https://github.com/getcursor/cursor/issues/837
